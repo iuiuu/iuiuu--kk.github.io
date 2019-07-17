@@ -94,20 +94,22 @@
 
 
 
-  <meta name="description" content="本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融">
-<meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="https://www.linjiangxiong.com/about/index.html">
+  <meta name="description" content="概述Go 语言是 Google 开源的一门通用型计算机程序设计语言，起源于 2007 年 9 月，并于 2009 年 11 月正式对外发布，其三位创始人都是计算机科学领域的重量级人物：Ken Thompson、Rob Pike 和 Robert Griesemer。作为在近年来快速崛起的编程语言，Go 已经成功跻身主流编程语言的行列，两次荣获 TIOBE 年度语言（分别是 2009 年度和 201">
+<meta name="keywords" content="Go,学习笔记,《Go程序设计语言》笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Go语言概述">
+<meta property="og:url" content="https://www.linjiangxiong.com/2019/07/15/go-1-intro/index.html">
 <meta property="og:site_name" content="Johnson&#39;s Blog">
-<meta property="og:description" content="本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融">
+<meta property="og:description" content="概述Go 语言是 Google 开源的一门通用型计算机程序设计语言，起源于 2007 年 9 月，并于 2009 年 11 月正式对外发布，其三位创始人都是计算机科学领域的重量级人物：Ken Thompson、Rob Pike 和 Robert Griesemer。作为在近年来快速崛起的编程语言，Go 已经成功跻身主流编程语言的行列，两次荣获 TIOBE 年度语言（分别是 2009 年度和 201">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-08T03:45:42.204Z">
+<meta property="og:image" content="https://www.linjiangxiong.com/2019/07/15/go-1-intro/go-origin.png">
+<meta property="og:image" content="https://www.linjiangxiong.com/2019/07/15/go-1-intro/gopher.png">
+<meta property="og:updated_time" content="2019-07-17T10:37:48.763Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融">
+<meta name="twitter:title" content="Go语言概述">
+<meta name="twitter:description" content="概述Go 语言是 Google 开源的一门通用型计算机程序设计语言，起源于 2007 年 9 月，并于 2009 年 11 月正式对外发布，其三位创始人都是计算机科学领域的重量级人物：Ken Thompson、Rob Pike 和 Robert Griesemer。作为在近年来快速崛起的编程语言，Go 已经成功跻身主流编程语言的行列，两次荣获 TIOBE 年度语言（分别是 2009 年度和 201">
+<meta name="twitter:image" content="https://www.linjiangxiong.com/2019/07/15/go-1-intro/go-origin.png">
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="Johnson's Blog" type="application/atom+xml">
@@ -116,7 +118,7 @@
 
   
   
-  <link rel="canonical" href="https://www.linjiangxiong.com/about/">
+  <link rel="canonical" href="https://www.linjiangxiong.com/2019/07/15/go-1-intro/">
 
 
 
@@ -126,7 +128,7 @@
   };
 </script>
 
-  <title>about | Johnson's Blog</title>
+  <title>Go语言概述 | Johnson's Blog</title>
   
 
 
@@ -363,70 +365,307 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.linjiangxiong.com/2019/07/15/go-1-intro/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Johnson Lin">
+      <meta itemprop="description" content="本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Johnson's Blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">about
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
+        
+          <h1 class="post-title" itemprop="name headline">Go语言概述
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-15 23:07:29" itemprop="dateCreated datePublished" datetime="2019-07-15T23:07:29+08:00">2019-07-15</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-17 18:37:48" itemprop="dateModified" datetime="2019-07-17T18:37:48+08:00">2019-07-17</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Golang/" itemprop="url" rel="index"><span itemprop="name">Golang</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+                 阅读次数： 
+                <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+              </span>
+            </span>
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Go 语言是 Google 开源的一门通用型计算机程序设计语言，起源于 2007 年 9 月，并于 2009 年 11 月正式对外发布，其三位创始人都是计算机科学领域的重量级人物：Ken Thompson、Rob Pike 和 Robert Griesemer。作为在近年来快速崛起的编程语言，Go 已经成功跻身主流编程语言的行列，两次荣获 TIOBE 年度语言（分别是 2009 年度和 2016 年度）。</p>
+<a id="more"></a>
+
+<p>Go 语言是跨平台的，用 Go 编写的程序可以运行在各种类 UNIX 系统（Linux、FreeBSD、OpenBSD 和 Mac OS X）、Plan 9 和 Microsoft Windows 等操作系统上。在 Windows 上编写的 Go 程序，放到 Linux 上也是能够运行的。</p>
+<p>在移动端 Go 语言也进行了积极的探索，一开始 Go 语言是不能开发手机移动端应用程序的，后来 Google 建立的 gomobile 项目，使得移动端两大应用平台——Android 和 iOS 上都可以运行其程序。</p>
+<p>另外，Go 在 1.11 的版本中引入了 WebAssembly 技术，与 WebAssembly 强强联合，这意味着 Go 语言开始涉足 Web 前端领域，在互联网浏览器也可以运行 Go 编写的程序了。</p>
+<h2 id="Go语言的发展过程"><a href="#Go语言的发展过程" class="headerlink" title="Go语言的发展过程"></a>Go语言的发展过程</h2><p>Go 语言的推出，旨在不损失应用程序性能的情况下降低代码的复杂性，具有“部署简单、并发性好、语言设计良好、执行性能好”等优势，目前在诸多领域（如云计算、微服务、大数据、区块链、物联网、图像处理、机器学习和人工智能等领域）中我们都能发现它的身影。</p>
+<p>与其他高级程序设计语言一样，Go 语言也会从其他成功的语言那里汲取各种优点，取其精华，去其糟粕。下图展示了有哪些早期的编程语言对 Go 语言的设计产生了重要影响。</p>
+<p><img src="go-origin.png" alt="早期编程语言对Go语言设计的影响"></p>
+<p>Go 语言的核心语法与 C 语言的语法表面上看起来很相似，Go 语言有时也会被称为“类 C 语言”或“ 21 世纪的 C”。但这并不是说 Go 语言抄袭了 C语言，而是 Go 语言从 C 语言中继承了很多思想——包括表达式语法、控制流语句、基本数据类型、按值调用的形参传递、指针、代码编译成机器码后的运行效率需要高效、与操作系统可以无缝适配等。</p>
+<p>此外，由 Niklaus Wirth 设计的、以 Pascal 为发端的一个语言支流对 Go 语言的设计也产生了重大影响。Modula-2 启发了包概念；Oberon 消除了模块接口文件和模块实现文件之间的差异；Oberon-2 影响了包、导入和声明的语法，并提供了方法声明的语法。</p>
+<p>实际上，受到了通信顺序进程（Communicating Sequential Process，CSP）启发一系列名不见经传的研究用语言（如 Squeak、Newsqueak、Alef），同样也对 Go 语言的设计产生了影响，使得 Go 语言相对于当下的程序设计语言显得卓然不群。</p>
+<p>除了上述程序设计语言外，Go 语言也从其他语言中借鉴了很多特性，例如，iota 多多少少有点 APL 的影子，而嵌套函数的词法作用域则来自 Scheme（以及由之而来的大部分语言）。</p>
+<p>在 Go 语言中，也可以发现全新的变异。Go 语言中新颖的 <code>slice</code> 不仅为动态数组提供了高效的随机访问功能，还允许旧式链表的复杂共享机制。另外，<code>defer</code> 语句也是 Go 语言中新引入的。</p>
+<p>Go 语言从其他多种程序设计语言中借鉴了许多优秀的思想，他的种种亮点都受到了广大编程爱好者的追捧。以下是 Go 语言核心特征的一部分：</p>
+<ul>
+<li><input checked disabled type="checkbox"> 实现了垃圾回收，即能够自动化的管理内存；</li>
+<li><input checked disabled type="checkbox"> 能让你访问底层操作系统，还提供了强大的网络编程和并发编程支持；</li>
+<li><input checked disabled type="checkbox"> 简洁、高效、安全；</li>
+<li><input checked disabled type="checkbox"> 支持并发编程，</li>
+<li><input checked disabled type="checkbox"> 编译迅速，部署便捷，Go 最终生成的是一个二进制可执行文件；</li>
+<li><input checked disabled type="checkbox"> 没有类和继承的概念，通过接口（interface）来实现多态性，类型之间也没有层级之说；</li>
+<li><input checked disabled type="checkbox"> 实现数据抽象和面向对象的途径是极其灵活的；</li>
+</ul>
+<h2 id="书写程序时应遵循的规则"><a href="#书写程序时应遵循的规则" class="headerlink" title="书写程序时应遵循的规则"></a>书写程序时应遵循的规则</h2><p>从便于阅读和维护的角度出发，Go 语言要求在书写程序时应遵循以下规则，这些规则是強制的，当不符合规则时编译将会产生错误。</p>
+<ol>
+<li><p>语句末尾不需要以分号（<strong>;</strong>）结束。</p>
+</li>
+<li><p>大括号（<strong>{</strong>）不能够换行放置。</p>
+</li>
+<li><p><strong>if</strong> 判断条件和 <strong>for</strong> 语句不需要以小括号包起来。</p>
+</li>
+</ol>
+<h2 id="Go吉祥物——Gopher"><a href="#Go吉祥物——Gopher" class="headerlink" title="Go吉祥物——Gopher"></a>Go吉祥物——Gopher</h2><p>在与 Go 相关的会议、文档或者博文中，我们经常可以看到如下所示的图案：</p>
+<p><img src="gopher.png" alt="吉祥物——Gopher"></p>
+<p>这是一种产于加拿大南部至巴拿马地区的挖洞啮齿的小动物，中文名叫做囊地鼠，属于衣囊鼠科。她是 Go 语言的吉祥物，由才华横溢的插画家 Renee French 设计的，她也是 Go 语言设计者之一 Rob Pike 的妻子。该设计根据Creative Commons 3.0 Attributions 许可证授权。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
         
           
         
-      </div>
+        <div class="post-tags">
+          
+            <a href="/tags/Go/" rel="tag"><i class="fa fa-tag"></i> Go</a>
+          
+            <a href="/tags/学习笔记/" rel="tag"><i class="fa fa-tag"></i> 学习笔记</a>
+          
+            <a href="/tags/《Go程序设计语言》笔记/" rel="tag"><i class="fa fa-tag"></i> 《Go程序设计语言》笔记</a>
+          
+        </div>
+      
+
       
       
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+            
+              <div>
+                
+  <div class="bdsharebuttonbox">
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common": {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": ""
+      },
+      "share": {
+        "bdSize": "16",
+        "bdStyle": "0"
+      },
+      "image": {
+        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
+        "viewText": "分享到：",
+        "viewSize": "16"
+      }
+    }
+  </script>
+
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+  //with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+              </div>
+            
+          </div>
+        
+        </div>
       
-    </div>
-    
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/02/roman-numerals-1-1000/" rel="next" title="罗马数字（下）——对照表 1-1000">
+                <i class="fa fa-chevron-left"></i> 罗马数字（下）——对照表 1-1000
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/15/go-2-install-go-on-mac/" rel="prev" title="go-2-install-go-on-mac">
+                go-2-install-go-on-mac <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
 
 
-
-    
-    
-    
   </div>
 
 
@@ -460,8 +699,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -586,6 +834,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Go语言的发展过程"><span class="nav-number">2.</span> <span class="nav-text">Go语言的发展过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#书写程序时应遵循的规则"><span class="nav-number">3.</span> <span class="nav-text">书写程序时应遵循的规则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Go吉祥物——Gopher"><span class="nav-number">4.</span> <span class="nav-text">Go吉祥物——Gopher</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -768,12 +1033,10 @@
   
     
 
-  
-
 
 <script>
   window.livereOptions = {
-    refer: 'about/'
+    refer: '2019/07/15/go-1-intro/'
   };
   (function(d, s) {
     var j, e = d.getElementsByTagName(s)[0];
