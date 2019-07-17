@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[Go笔记（二）——Mac OS X安装Go]]></title>
     <url>%2F2019%2F07%2F16%2Fgo-2-install-go-on-mac%2F</url>
-    <content type="text"><![CDATA[Go 有三种常见的安装方式： Go 提供的安装程序，这种方式适合快速安装，用户可根据自己的系统位数下载好相应的安装程序，双击运行并安装即可。安装程序支持 Windows、Linux、Mac 等多种操作系统。 使用第三方工具安装，该方式适合熟悉相应操作系统的用户。目前有很多便捷的第三方软件包工具可以安装 Go，例如 Ubuntu 的 apt-get 和 wget、Mac 的 homebrew 等。 源码安装，对于想深入学习并掌握 Go 语言的用户来说，这种安装方式不失为一种好方法——用户可以自行修改代码、灵活定制功能。 在 Mac OS X 系统安装 Go 的三种方式具体过程如下： Go安装程序从 Go 官网下载最新版的安装程序（网速慢的同学请移步国内镜像，提取码为 kc9d），双击运行并安装。 选择macOS版本 选择 macOS 版本，下载完成之后，双击 go1.12.7.darwin-amd64.pkg 进行安装。如果安装过程出现以下提示： xsx ss fse 第三方工具——homebrew方法二：如果安装了Homebrew，直接通过命令brew install python3安装即可。 源码安装https://golang.org/dl/]]></content>
+    <content type="text"><![CDATA[Go 有三种常见的安装方式： Go 提供的安装程序，这种方式适合快速安装，用户可根据自己的系统位数下载好相应的安装程序，双击运行并安装即可。安装程序支持 Windows、Linux、Mac 等多种操作系统。 使用第三方工具安装，该方式适合熟悉相应操作系统的用户。目前有很多便捷的第三方软件包工具可以安装 Go，例如 Ubuntu 的 apt-get 和 wget、Mac 的 homebrew 等。 源码安装，对于想深入学习并掌握 Go 语言的用户来说，这种安装方式不失为一种好方法——用户可以自行修改代码、灵活定制功能。 在 Mac OS X 系统安装 Go 的三种方式具体过程如下： Go安装程序从 Go 官网下载最新版的安装程序（网速慢的同学请移步国内镜像，提取码为 kc9d），双击运行并安装。 选择 macOS 版本，下载完成之后，双击 go1.12.7.darwin-amd64.pkg 进行安装。如果安装过程出现以下提示： 第三方工具——homebrew方法二：如果安装了Homebrew，直接通过命令brew install python3安装即可。 源码安装https://golang.org/dl/]]></content>
       <categories>
         <category>Golang</category>
       </categories>
