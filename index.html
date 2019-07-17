@@ -264,7 +264,7 @@
       
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">5</span></a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">4</span></a>
 
   </li>
         
@@ -381,7 +381,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.linjiangxiong.com/2019/07/15/go-3-first-go-program/">
+    <link itemprop="mainEntityOfPage" href="https://www.linjiangxiong.com/2019/07/17/go-3-first-go-program/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Johnson Lin">
@@ -401,7 +401,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/15/go-3-first-go-program/" class="post-title-link" itemprop="url">go-3-first-go-program</a>
+                <a href="/2019/07/17/go-3-first-go-program/" class="post-title-link" itemprop="url">Go笔记（三）——第一个Go程序</a>
               
             
           </h1>
@@ -426,12 +426,31 @@
                 
               
 
-              <time title="创建时间：2019-07-15 23:24:24" itemprop="dateCreated datePublished" datetime="2019-07-15T23:24:24+08:00">2019-07-15</time>
+              <time title="创建时间：2019-07-17 23:18:18 / 修改时间：23:42:29" itemprop="dateCreated datePublished" datetime="2019-07-17T23:18:18+08:00">2019-07-17</time>
             </span>
           
 
           
+            
 
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Golang/" itemprop="url" rel="index"><span itemprop="name">Golang</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -522,7 +541,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.linjiangxiong.com/2019/07/15/go-2-install-go-on-mac/">
+    <link itemprop="mainEntityOfPage" href="https://www.linjiangxiong.com/2019/07/16/go-2-install-go-on-mac/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Johnson Lin">
@@ -542,7 +561,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/15/go-2-install-go-on-mac/" class="post-title-link" itemprop="url">go-2-install-go-on-mac</a>
+                <a href="/2019/07/16/go-2-install-go-on-mac/" class="post-title-link" itemprop="url">Go笔记（二）——Mac OS X安装Go</a>
               
             
           </h1>
@@ -567,7 +586,7 @@
                 
               
 
-              <time title="创建时间：2019-07-15 23:18:18" itemprop="dateCreated datePublished" datetime="2019-07-15T23:18:18+08:00">2019-07-15</time>
+              <time title="创建时间：2019-07-16 23:18:18" itemprop="dateCreated datePublished" datetime="2019-07-16T23:18:18+08:00">2019-07-16</time>
             </span>
           
 
@@ -582,11 +601,26 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-17 14:30:43" itemprop="dateModified" datetime="2019-07-17T14:30:43+08:00">2019-07-17</time>
+                <time title="修改时间：2019-07-18 00:41:52" itemprop="dateModified" datetime="2019-07-18T00:41:52+08:00">2019-07-18</time>
               </span>
             
           
 
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Golang/" itemprop="url" rel="index"><span itemprop="name">Golang</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -621,7 +655,25 @@
       
         
           
-            
+            <p>Go 有三种常见的安装方式：</p>
+<ul>
+<li><p>Go 提供的安装程序，这种方式适合快速安装，用户可根据自己的系统位数下载好相应的安装程序，双击运行并安装即可。安装程序支持 Windows、Linux、Mac 等多种操作系统。</p>
+</li>
+<li><p>使用第三方工具安装，该方式适合熟悉相应操作系统的用户。目前有很多便捷的第三方软件包工具可以安装 Go，例如 Ubuntu 的 <code>apt-get</code> 和 <code>wget</code>、Mac 的 <code>homebrew</code> 等。</p>
+</li>
+<li><p>源码安装，对于想深入学习并掌握 Go 语言的用户来说，这种安装方式不失为一种好方法——用户可以自行修改代码、灵活定制功能。</p>
+</li>
+</ul>
+<p>在 Mac OS X 系统安装 Go 的三种方式具体过程如下：</p>
+<h2 id="Go安装程序"><a href="#Go安装程序" class="headerlink" title="Go安装程序"></a>Go安装程序</h2><p>从 Go 官网下载最新版的<a href="https://golang.org/dl/" target="_blank" rel="noopener">安装程序</a>（网速慢的同学请移步<a href="https://pan.baidu.com/s/1ZgKyqpBitH-AW0XBRugFHQ" target="_blank" rel="noopener">国内镜像</a>，提取码为 <strong>kc9d</strong>），双击运行并安装。</p>
+<p><a href="go-dl.png">选择macOS版本</a></p>
+<p>选择 macOS 版本，下载完成之后，双击 go1.12.7.darwin-amd64.pkg 进行安装。如果安装过程出现以下提示：</p>
+<p><a href="go-tips.png">xsx</a></p>
+<p><a href="go-secu.png">ss</a></p>
+<p><a href="go-open.png">fse</a></p>
+<h2 id="第三方工具——homebrew"><a href="#第三方工具——homebrew" class="headerlink" title="第三方工具——homebrew"></a>第三方工具——homebrew</h2><p>方法二：如果安装了Homebrew，直接通过命令brew install python3安装即可。</p>
+<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p><a href="https://golang.org/dl/" target="_blank" rel="noopener">https://golang.org/dl/</a></p>
+
           
         
       
@@ -697,7 +749,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 
-                <a href="/2019/07/15/go-1-intro/" class="post-title-link" itemprop="url">Go语言概述</a>
+                <a href="/2019/07/15/go-1-intro/" class="post-title-link" itemprop="url">Go笔记（一）——语言概述</a>
               
             
           </h1>
@@ -737,7 +789,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-17 18:37:48" itemprop="dateModified" datetime="2019-07-17T18:37:48+08:00">2019-07-17</time>
+                <time title="修改时间：2019-07-17 23:40:29" itemprop="dateModified" datetime="2019-07-17T23:40:29+08:00">2019-07-17</time>
               </span>
             
           
@@ -1460,9 +1512,7 @@
                     
                       
                     
-                      
-                    
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.linjiangxiong.com/"/>
-  <updated>2019-07-15T15:24:24.314Z</updated>
+  <updated>2019-07-17T15:42:29.317Z</updated>
   <id>https://www.linjiangxiong.com/</id>
   
   <author>
@@ -17,39 +17,62 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>go-3-first-go-program</title>
-    <link href="https://www.linjiangxiong.com/2019/07/15/go-3-first-go-program/"/>
-    <id>https://www.linjiangxiong.com/2019/07/15/go-3-first-go-program/</id>
-    <published>2019-07-15T15:24:24.000Z</published>
-    <updated>2019-07-15T15:24:24.314Z</updated>
+    <title>Go笔记（三）——第一个Go程序</title>
+    <link href="https://www.linjiangxiong.com/2019/07/17/go-3-first-go-program/"/>
+    <id>https://www.linjiangxiong.com/2019/07/17/go-3-first-go-program/</id>
+    <published>2019-07-17T15:18:18.000Z</published>
+    <updated>2019-07-17T15:42:29.317Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="Golang" scheme="https://www.linjiangxiong.com/categories/Golang/"/>
+    
+    
+      <category term="Go" scheme="https://www.linjiangxiong.com/tags/Go/"/>
+    
+      <category term="学习笔记" scheme="https://www.linjiangxiong.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
-    <title>go-2-install-go-on-mac</title>
-    <link href="https://www.linjiangxiong.com/2019/07/15/go-2-install-go-on-mac/"/>
-    <id>https://www.linjiangxiong.com/2019/07/15/go-2-install-go-on-mac/</id>
-    <published>2019-07-15T15:18:18.000Z</published>
-    <updated>2019-07-17T06:30:43.258Z</updated>
+    <title>Go笔记（二）——Mac OS X安装Go</title>
+    <link href="https://www.linjiangxiong.com/2019/07/16/go-2-install-go-on-mac/"/>
+    <id>https://www.linjiangxiong.com/2019/07/16/go-2-install-go-on-mac/</id>
+    <published>2019-07-16T15:18:18.000Z</published>
+    <updated>2019-07-17T16:41:52.648Z</updated>
+    
+    <content type="html"><![CDATA[<p>Go 有三种常见的安装方式：</p><ul><li><p>Go 提供的安装程序，这种方式适合快速安装，用户可根据自己的系统位数下载好相应的安装程序，双击运行并安装即可。安装程序支持 Windows、Linux、Mac 等多种操作系统。</p></li><li><p>使用第三方工具安装，该方式适合熟悉相应操作系统的用户。目前有很多便捷的第三方软件包工具可以安装 Go，例如 Ubuntu 的 <code>apt-get</code> 和 <code>wget</code>、Mac 的 <code>homebrew</code> 等。</p></li><li><p>源码安装，对于想深入学习并掌握 Go 语言的用户来说，这种安装方式不失为一种好方法——用户可以自行修改代码、灵活定制功能。</p></li></ul><p>在 Mac OS X 系统安装 Go 的三种方式具体过程如下：</p><h2 id="Go安装程序"><a href="#Go安装程序" class="headerlink" title="Go安装程序"></a>Go安装程序</h2><p>从 Go 官网下载最新版的<a href="https://golang.org/dl/" target="_blank" rel="noopener">安装程序</a>（网速慢的同学请移步<a href="https://pan.baidu.com/s/1ZgKyqpBitH-AW0XBRugFHQ" target="_blank" rel="noopener">国内镜像</a>，提取码为 <strong>kc9d</strong>），双击运行并安装。</p><p><a href="go-dl.png">选择macOS版本</a></p><p>选择 macOS 版本，下载完成之后，双击 go1.12.7.darwin-amd64.pkg 进行安装。如果安装过程出现以下提示：</p><p><a href="go-tips.png">xsx</a></p><p><a href="go-secu.png">ss</a></p><p><a href="go-open.png">fse</a></p><h2 id="第三方工具——homebrew"><a href="#第三方工具——homebrew" class="headerlink" title="第三方工具——homebrew"></a>第三方工具——homebrew</h2><p>方法二：如果安装了Homebrew，直接通过命令brew install python3安装即可。</p><h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p><a href="https://golang.org/dl/" target="_blank" rel="noopener">https://golang.org/dl/</a></p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;Go 有三种常见的安装方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Go 提供的安装程序，这种方式适合快速安装，用户可根据自己的系统位数下载好相应的安装程序，双击运行并安装即可。安装程序支持 Windows、Linux、Mac 等多种操作系统。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;
+      
+    
     </summary>
     
+      <category term="Golang" scheme="https://www.linjiangxiong.com/categories/Golang/"/>
+    
+    
+      <category term="Go" scheme="https://www.linjiangxiong.com/tags/Go/"/>
+    
+      <category term="学习笔记" scheme="https://www.linjiangxiong.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
-    <title>Go语言概述</title>
+    <title>Go笔记（一）——语言概述</title>
     <link href="https://www.linjiangxiong.com/2019/07/15/go-1-intro/"/>
     <id>https://www.linjiangxiong.com/2019/07/15/go-1-intro/</id>
     <published>2019-07-15T15:07:29.000Z</published>
-    <updated>2019-07-17T10:37:48.763Z</updated>
+    <updated>2019-07-17T15:40:29.014Z</updated>
     
     <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Go 语言是 Google 开源的一门通用型计算机程序设计语言，起源于 2007 年 9 月，并于 2009 年 11 月正式对外发布，其三位创始人都是计算机科学领域的重量级人物：Ken Thompson、Rob Pike 和 Robert Griesemer。作为在近年来快速崛起的编程语言，Go 已经成功跻身主流编程语言的行列，两次荣获 TIOBE 年度语言（分别是 2009 年度和 2016 年度）。</p><a id="more"></a><p>Go 语言是跨平台的，用 Go 编写的程序可以运行在各种类 UNIX 系统（Linux、FreeBSD、OpenBSD 和 Mac OS X）、Plan 9 和 Microsoft Windows 等操作系统上。在 Windows 上编写的 Go 程序，放到 Linux 上也是能够运行的。</p><p>在移动端 Go 语言也进行了积极的探索，一开始 Go 语言是不能开发手机移动端应用程序的，后来 Google 建立的 gomobile 项目，使得移动端两大应用平台——Android 和 iOS 上都可以运行其程序。</p><p>另外，Go 在 1.11 的版本中引入了 WebAssembly 技术，与 WebAssembly 强强联合，这意味着 Go 语言开始涉足 Web 前端领域，在互联网浏览器也可以运行 Go 编写的程序了。</p><h2 id="Go语言的发展过程"><a href="#Go语言的发展过程" class="headerlink" title="Go语言的发展过程"></a>Go语言的发展过程</h2><p>Go 语言的推出，旨在不损失应用程序性能的情况下降低代码的复杂性，具有“部署简单、并发性好、语言设计良好、执行性能好”等优势，目前在诸多领域（如云计算、微服务、大数据、区块链、物联网、图像处理、机器学习和人工智能等领域）中我们都能发现它的身影。</p><p>与其他高级程序设计语言一样，Go 语言也会从其他成功的语言那里汲取各种优点，取其精华，去其糟粕。下图展示了有哪些早期的编程语言对 Go 语言的设计产生了重要影响。</p><p><img src="go-origin.png" alt="早期编程语言对Go语言设计的影响"></p><p>Go 语言的核心语法与 C 语言的语法表面上看起来很相似，Go 语言有时也会被称为“类 C 语言”或“ 21 世纪的 C”。但这并不是说 Go 语言抄袭了 C语言，而是 Go 语言从 C 语言中继承了很多思想——包括表达式语法、控制流语句、基本数据类型、按值调用的形参传递、指针、代码编译成机器码后的运行效率需要高效、与操作系统可以无缝适配等。</p><p>此外，由 Niklaus Wirth 设计的、以 Pascal 为发端的一个语言支流对 Go 语言的设计也产生了重大影响。Modula-2 启发了包概念；Oberon 消除了模块接口文件和模块实现文件之间的差异；Oberon-2 影响了包、导入和声明的语法，并提供了方法声明的语法。</p><p>实际上，受到了通信顺序进程（Communicating Sequential Process，CSP）启发一系列名不见经传的研究用语言（如 Squeak、Newsqueak、Alef），同样也对 Go 语言的设计产生了影响，使得 Go 语言相对于当下的程序设计语言显得卓然不群。</p><p>除了上述程序设计语言外，Go 语言也从其他语言中借鉴了很多特性，例如，iota 多多少少有点 APL 的影子，而嵌套函数的词法作用域则来自 Scheme（以及由之而来的大部分语言）。</p><p>在 Go 语言中，也可以发现全新的变异。Go 语言中新颖的 <code>slice</code> 不仅为动态数组提供了高效的随机访问功能，还允许旧式链表的复杂共享机制。另外，<code>defer</code> 语句也是 Go 语言中新引入的。</p><p>Go 语言从其他多种程序设计语言中借鉴了许多优秀的思想，他的种种亮点都受到了广大编程爱好者的追捧。以下是 Go 语言核心特征的一部分：</p><ul><li><input checked disabled type="checkbox"> 实现了垃圾回收，即能够自动化的管理内存；</li><li><input checked disabled type="checkbox"> 能让你访问底层操作系统，还提供了强大的网络编程和并发编程支持；</li><li><input checked disabled type="checkbox"> 简洁、高效、安全；</li><li><input checked disabled type="checkbox"> 支持并发编程，</li><li><input checked disabled type="checkbox"> 编译迅速，部署便捷，Go 最终生成的是一个二进制可执行文件；</li><li><input checked disabled type="checkbox"> 没有类和继承的概念，通过接口（interface）来实现多态性，类型之间也没有层级之说；</li><li><input checked disabled type="checkbox"> 实现数据抽象和面向对象的途径是极其灵活的；</li></ul><h2 id="书写程序时应遵循的规则"><a href="#书写程序时应遵循的规则" class="headerlink" title="书写程序时应遵循的规则"></a>书写程序时应遵循的规则</h2><p>从便于阅读和维护的角度出发，Go 语言要求在书写程序时应遵循以下规则，这些规则是強制的，当不符合规则时编译将会产生错误。</p><ol><li><p>语句末尾不需要以分号（<strong>;</strong>）结束。</p></li><li><p>大括号（<strong>{</strong>）不能够换行放置。</p></li><li><p><strong>if</strong> 判断条件和 <strong>for</strong> 语句不需要以小括号包起来。</p></li></ol><h2 id="Go吉祥物——Gopher"><a href="#Go吉祥物——Gopher" class="headerlink" title="Go吉祥物——Gopher"></a>Go吉祥物——Gopher</h2><p>在与 Go 相关的会议、文档或者博文中，我们经常可以看到如下所示的图案：</p><p><img src="gopher.png" alt="吉祥物——Gopher"></p><p>这是一种产于加拿大南部至巴拿马地区的挖洞啮齿的小动物，中文名叫做囊地鼠，属于衣囊鼠科。她是 Go 语言的吉祥物，由才华横溢的插画家 Renee French 设计的，她也是 Go 语言设计者之一 Rob Pike 的妻子。该设计根据Creative Commons 3.0 Attributions 许可证授权。</p>]]></content>
     
@@ -65,8 +88,6 @@
       <category term="Go" scheme="https://www.linjiangxiong.com/tags/Go/"/>
     
       <category term="学习笔记" scheme="https://www.linjiangxiong.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="《Go程序设计语言》笔记" scheme="https://www.linjiangxiong.com/tags/%E3%80%8AGo%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
