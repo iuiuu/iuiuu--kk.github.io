@@ -106,7 +106,7 @@
 <meta property="og:image" content="https://www.linjiangxiong.com/2019/07/16/go-2-install-go-on-mac/go-tips.png">
 <meta property="og:image" content="https://www.linjiangxiong.com/2019/07/16/go-2-install-go-on-mac/go-secu.png">
 <meta property="og:image" content="https://www.linjiangxiong.com/2019/07/16/go-2-install-go-on-mac/go-open.png">
-<meta property="og:updated_time" content="2019-07-19T02:31:40.513Z">
+<meta property="og:updated_time" content="2019-07-18T22:12:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Go笔记（二）——Mac OS X安装Go">
 <meta name="twitter:description" content="Go 有三种常见的安装方式：  Go 提供的安装程序，这种方式适合快速安装，用户可根据自己的系统位数下载好相应的安装程序，双击运行并安装即可。安装程序支持 Windows、Linux、Mac 等多种操作系统。  使用第三方工具安装，该方式适合熟悉相应操作系统的用户。目前有很多便捷的第三方软件包工具可以安装 Go，例如 Ubuntu 的 apt-get 和 wget、Mac 的 homebrew 等">
@@ -306,7 +306,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">6</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">8</span></a>
 
   </li>
 
@@ -391,7 +391,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Johnson Lin">
-      <meta itemprop="description" content="本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融">
+      <meta itemprop="description" content="本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融。">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
@@ -445,7 +445,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-07-19 10:31:40" itemprop="dateModified" datetime="2019-07-19T10:31:40+08:00">2019-07-19</time>
+                <time title="修改时间：2019-07-19 06:12:20" itemprop="dateModified" datetime="2019-07-19T06:12:20+08:00">2019-07-19</time>
               </span>
             
           
@@ -533,7 +533,7 @@
 <p>如果你已经安装了 homebrew，直接通过命令 <code>brew install go</code> 安装即可。</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ brew install go</span><br><span class="line">Updating Homebrew...</span><br><span class="line">==&gt; Downloading https://homebrew.bintray.com/bottles/go-1.12.7.mojave.bottle.tar.gz</span><br><span class="line">==&gt; Downloading from https://akamai.bintray.com/92/928077a68d8e259606b9be2d21e17f66c4b530ffc79cb7797ecac65bd6d01272?__gda__=exp=1563423411~hmac=72f2610fcb7f0b3e914ff3ddf832da211fb2f</span><br><span class="line"><span class="meta">#</span>####################################################################### 100.0%</span><br><span class="line">==&gt; Pouring go-1.12.7.mojave.bottle.tar.gz</span><br><span class="line">🍺  /usr/local/Cellar/go/1.12.7: 9,816 files, 452.7MB</span><br></pre></td></tr></table></figure>
 
-<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>Go 1.5 开始就彻底移除了 C 代码，Runtime、Compiler、Linker 均由 Go 编写，实现自举（即用 Go 来编译 Go）。只要安装了上一个版本，即可从源码安装。</p>
+<h2 id="源码安装"><a href="#源码安装" class="headerlink" title="源码安装"></a>源码安装</h2><p>Go 1.5 开始就彻底移除了 C 代码，Runtime、Compiler、Linker 均由 Go 编写，实现自举（即用 Go 语言编写程序来实现 Go 语言自身）。只要安装了上一个版本，即可从源码安装。</p>
 <p>但在 Go1.5 前，Go 的源代码中，有部分是用 Plan 9 C 和 AT&amp;T 汇编写的，因此假如你要想从源码安装，就必须安装 C 的编译工具。在 Mac 系统中，只要你安装了 Xcode，就已经包含了相应的编译工具。</p>
 <p>以下示例是先编译安装 Go1.4，接着再编译安装 Go1.12。</p>
 <h3 id="编译安装Go1-4"><a href="#编译安装Go1-4" class="headerlink" title="编译安装Go1.4"></a>编译安装Go1.4</h3><p>首先下载 Go1.4 的<a href="https://storage.googleapis.com/golang/go1.4-bootstrap-20161024.tar.gz" target="_blank" rel="noopener">源码</a>（<a href="https://pan.baidu.com/s/1ZgKyqpBitH-AW0XBRugFHQ" target="_blank" rel="noopener">国内镜像</a>，提取码为 <strong>kc9d</strong>）</p>
@@ -563,7 +563,7 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">➜  Downloads cd /usr/local/go/src</span><br><span class="line">➜  src ./make.bash</span><br><span class="line">Building Go cmd/dist using /usr/local/go1.4.</span><br><span class="line">Building Go toolchain1 using /usr/local/go1.4.</span><br><span class="line">Building Go bootstrap cmd/go (go_bootstrap) using Go toolchain1.</span><br><span class="line">Building Go toolchain2 using go_bootstrap and Go toolchain1.</span><br><span class="line">Building Go toolchain3 using go_bootstrap and Go toolchain2.</span><br><span class="line">Building packages and commands for darwin/amd64.</span><br><span class="line">---</span><br><span class="line">Installed Go for darwin/amd64 in /usr/local/go</span><br><span class="line">Installed commands in /usr/local/go/bin</span><br></pre></td></tr></table></figure>
 
 <p>至此，新版 Go 已编译安装成功。但我们还需要设置一些常用的环境变量：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Golang</span></span><br><span class="line"><span class="comment"># 设置个人的工作目录，可以包含多个工作目录，取决于你的个人情况。</span></span><br><span class="line"><span class="comment"># 如果你设置了多个工作目录，那么当你在之后使用 go get（远程包安装命令）时远程包将会被安装在第一个目录下。</span></span><br><span class="line"><span class="built_in">export</span> GOPATH=<span class="variable">$HOME</span>/go</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装目录</span></span><br><span class="line"><span class="built_in">export</span> GOROOT=/usr/<span class="built_in">local</span>/go</span><br><span class="line"></span><br><span class="line"><span class="comment"># PATH</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$GOPATH</span>/bin</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Golang</span></span><br><span class="line"><span class="comment"># 设置个人的工作目录，可以包含多个工作目录，取决于你的个人情况。</span></span><br><span class="line"><span class="comment"># 如果你设置了多个工作目录，那么当你在之后使用 go get（远程包安装命令）时远程包将会被安装在第一个目录下。</span></span><br><span class="line"><span class="built_in">export</span> GOPATH=<span class="variable">$HOME</span>/go</span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装目录</span></span><br><span class="line"><span class="built_in">export</span> GOROOT=/usr/<span class="built_in">local</span>/go</span><br><span class="line"></span><br><span class="line"><span class="comment"># PATH</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$GOROOT</span>/bin:<span class="variable">$GOPATH</span>/bin</span><br></pre></td></tr></table></figure>
 
 <p>将上面变量写入 .bash_profile 或 .zshrc 文件中，这样每次重启之后都不用重新指定了。相关命令如下：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">➜  src vim ~/.bash_profile</span><br><span class="line">➜  src vim source ~/.bash_profile  #修改文件后立即生效</span><br></pre></td></tr></table></figure>
@@ -682,7 +682,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/17/go-3-first-go-program/" rel="prev" title="Go笔记（三）——第一个Go程序">
+              <a href="/2019/07/17/go-4-first-go-program/" rel="prev" title="Go笔记（三）——第一个Go程序">
                 Go笔记（三）——第一个Go程序 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -750,7 +750,7 @@
               <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="Johnson Lin">
             
               <p class="site-author-name" itemprop="name">Johnson Lin</p>
-              <div class="site-description motion-element" itemprop="description">本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融</div>
+              <div class="site-description motion-element" itemprop="description">本喵的兴趣是互联网技术和数学，偶尔会加点历史和金融。</div>
           </div>
 
           
@@ -760,7 +760,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
